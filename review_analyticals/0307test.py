@@ -17,3 +17,9 @@ print('總平均為', sum_len/len(data),'筆資料')
 print(data[0])
 print(len(data[0]))
 
+new = []
+for e in data:
+	if 'good' in e:
+		new.append(e)
+
+print(len(new)) 
